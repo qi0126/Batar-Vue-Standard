@@ -1,18 +1,5 @@
 <template>
   <div class="hello">
-
-    <el-menu
-      :default-active="sInd"
-      class="el-menu-demo"
-      mode="horizontal"
-      @select="handleSelect"
-      background-color="#545c64"
-      text-color="#fff"
-      active-text-color="#ffd04b">
-      <el-menu-item index="1">Vue规范确定</el-menu-item>
-      <el-menu-item index="2">Vant移动端</el-menu-item>
-      <el-menu-item index="3">Element桌面端</el-menu-item>
-    </el-menu>
     <div class="cellDiv">
       <van-swipe-cell v-for="item in 7" :key="item" class="cellDivOne">
         <van-card
@@ -54,8 +41,7 @@ export default {
 		this.created_fun()
   },
   data:function() {
-  return {
-      sInd:'0'
+    return {
     };
   },
   methods: {

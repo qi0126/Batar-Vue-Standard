@@ -9,10 +9,13 @@
       background-color="#545c64"
       text-color="#fff"
       active-text-color="#ffd04b">
-      <el-menu-item index="1">Vue规范确定</el-menu-item>
-      <el-menu-item index="2">Vant移动端</el-menu-item>
-      <el-menu-item index="3">Element桌面端</el-menu-item>
+      <el-menu-item index="vueStand">Vue规范确定</el-menu-item>
+      <el-menu-item index="vueVant">Vant移动端</el-menu-item>
+      <el-menu-item index="vueElement">Element桌面端</el-menu-item>
     </el-menu>
+    <div style="margin-top:60px">
+      <router-view></router-view>
+    </div>
 
   </div>
 </template>
@@ -32,14 +35,14 @@ export default {
   },
   data:function() {
   return {
-      sInd:'0'
+      sInd:'vueElement'
     };
   },
   methods: {
 		created_fun() {
-      console.log("aaaa:")
     },
     handleSelect(e){
+      this.$router.push(e)
       console.log(e)
     }
   }
