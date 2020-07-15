@@ -16,7 +16,6 @@
     <div style="margin-top:60px">
       <router-view></router-view>
     </div>
-
   </div>
 </template>
 
@@ -35,7 +34,7 @@ export default {
   },
   data:function() {
   return {
-      sInd:'vueElement'
+      sInd:'vueStand'
     };
   },
   methods: {
@@ -43,7 +42,6 @@ export default {
     },
     handleSelect(e){
       this.$router.push(e)
-      console.log(e)
     }
   }
 }

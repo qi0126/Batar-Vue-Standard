@@ -48,9 +48,6 @@ export default {
   methods: {
 		created_fun() {
     },
-    handleSelect(e){
-      console.log(e)
-    }
   }
 }
 </script>

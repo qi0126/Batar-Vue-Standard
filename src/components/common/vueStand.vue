@@ -46,11 +46,7 @@ export default {
   },
   methods: {
 		created_fun() {
-      console.log("aaaa:")
     },
-    handleSelect(e){
-      console.log(e)
-    }
   }
 }
 </script>
