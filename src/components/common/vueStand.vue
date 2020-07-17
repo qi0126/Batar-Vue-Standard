@@ -1,28 +1,10 @@
 <template>
   <div class="hello">
     <div class="cellDiv">
-      <van-swipe-cell v-for="item in 7" :key="item" class="cellDivOne">
-        <van-card
-          num="2"
-          price="2.00"
-          desc="描述信息"
-          title="移动端"
-          class="goods-card"
-          thumb="https://img.yzcdn.cn/vant/cat.jpeg"
-        />
-        <template #right>
-          <van-button square text="删除" type="danger" class="delete-button" />
-        </template>
-      </van-swipe-cell>
+      10231321423
     </div>
     <div>
-      <van-goods-action>
-        <van-goods-action-icon icon="chat-o" text="客服" dot color="#07c160"/>
-        <van-goods-action-icon icon="cart-o" text="购物车" badge="5" />
-        <van-goods-action-icon icon="shop-o" text="店铺" badge="12" color="#ff5000"/>
-        <van-goods-action-button type="warning" text="加入购物车" />
-        <van-goods-action-button type="danger" text="立即购买" />
-      </van-goods-action>
+      1234153456
     </div>
   </div>
 </template>

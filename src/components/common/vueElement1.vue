@@ -1,5 +1,5 @@
 <template>
-  <div class="helloDiv">
+  <div class="hello">
     <el-form ref="form" :model="form" label-width="80px">
       <el-form-item label="活动名称">
         <el-input v-model="form.name"></el-input>
@@ -84,8 +84,8 @@ export default {
 }
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 h3 {
   margin: 40px 0 0;
 }
@@ -99,9 +99,6 @@ li {
 }
 a {
   color: #42b983;
-}
-.helloDiv{
-  padding:20px 20px 20px 10px;
 }
 .delete-button{
   height:100%
@@ -118,5 +115,4 @@ a {
 .cellDivOne{
   border-top:1px solid #f0f0f0
 }
-
 </style>
