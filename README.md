@@ -15,5 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vant轻量、可靠的移动端 Vue 组件库官网地址
+https://vant-contrib.gitee.io/vant/#/zh-CN/home
+
+
