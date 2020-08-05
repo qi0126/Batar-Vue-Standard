@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-
+    111111111111111111111111111111
     <div class="cellDiv">
       <van-swipe-cell v-for="item in 7" :key="item" class="cellDivOne">
         <van-card
@@ -51,8 +51,6 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;

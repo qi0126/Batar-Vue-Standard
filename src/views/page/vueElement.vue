@@ -1,6 +1,7 @@
 <template>
-  <div class="hello">
-    <el-form ref="form" :model="form" label-width="80px">
+  <div class="helloDiv">
+    11111111111111111
+    <!-- <el-form ref="form" :model="form" label-width="80px">
       <el-form-item label="活动名称">
         <el-input v-model="form.name"></el-input>
       </el-form-item>
@@ -43,7 +44,7 @@
         <el-button type="primary" @click="onSubmit">立即创建</el-button>
         <el-button>取消</el-button>
       </el-form-item>
-    </el-form>
+    </el-form> -->
   </div>
 </template>
 
@@ -84,8 +85,8 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 h3 {
   margin: 40px 0 0;
 }
@@ -99,6 +100,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.helloDiv{
+  padding:20px 20px 20px 10px;
 }
 .delete-button{
   height:100%
@@ -115,4 +119,5 @@ a {
 .cellDivOne{
   border-top:1px solid #f0f0f0
 }
+
 </style>
